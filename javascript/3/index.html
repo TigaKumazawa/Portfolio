@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Animation</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script>
+  $(function(){
+    $('#button').on('click',function(){
+      $('#button').animate({
+        "marginLeft" : "500px"
+        ,"marginTop" : "300px"
+      },{
+        duration : 2000
+      });
+    })
+  });
+  
+  </script>
+</head>
+<body>
+  <div id="button">
+    <p>箱</p>
+  </div><!-- button -->
+</body>
+</html>

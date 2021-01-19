@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>if文</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <script>
+  $(function(){
+    $('#button').on('click',function(){
+      var btn = $('#value').val();
+      if (btn == 1) {
+        $('#box').css('background-color' , 'red');
+      } else if (btn == 2) {
+        $('#box').css('background-color' , 'green');
+      } else {
+        $('#box').css('background-color' , 'blue');
+      }
+      });
+  });
+  </script>
+
+</head>
+<body>
+  <input type="text" id="value">
+  <input type="button" id="button" value="ボタン">
+  <div id="box">
+  </div>
+</body>
+</html>

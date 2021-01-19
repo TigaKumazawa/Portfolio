@@ -1,0 +1,20 @@
+#wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+#button {
+  margin: 0 20px;
+  width: 320px;
+  height: 180px;
+  background-color: #fdd;
+  cursor: pointer;
+}
+
+#button p {
+  line-height: 180px;
+  font-size: 30px;
+  text-align: center;
+}

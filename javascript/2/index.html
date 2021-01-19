@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Click Event 2</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script>
+  $(function(){
+    $('.button').on('click', function(event){
+      event.preventDefault();
+      $(this).toggleClass('active');
+    });
+  });
+  </script>
+  
+</head>
+<body>
+  <div id="wrapper">
+    <div id="button1" class="button"><p>箱1</p></div>
+
+    <div id="button2" class="button"><p>箱2</p></div>
+
+    <div id="button3" class="button"><p>箱3</p></div>
+  </div>
+</body>
+</html>

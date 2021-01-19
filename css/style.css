@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+#index .global-nav, #about .global-nav, #portfolio .global-nav, #contact .global-nav {
+  float: right;
+  margin-top: 30px;
+  margin-right: -130px;
+}
+
+#index .global-nav li, #about .global-nav li, #portfolio .global-nav li, #contact .global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+}
+
+#index .global-nav a, #about .global-nav a, #portfolio .global-nav a, #contact .global-nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#index .global-nav a:hover, #about .global-nav a:hover, #portfolio .global-nav a:hover, #contact .global-nav a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+#index h1, #about h1, #portfolio h1, #contact h1 {
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+
+#index h2, #about h2, #portfolio h2, #contact h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+#index .icon:before, #about .icon:before, #portfolio .icon:before, #contact .icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #0066CC;
+}
+
+#index .main-center, #about .main-center, #portfolio .main-center, #contact .main-center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#index span, #about span, #portfolio span, #contact span {
+  font-weight: bold;
+}
+
+#wrap {
+  clear: both;
+  background-color: #ffffff;
+  padding: 35px 0;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+footer small {
+  font-size: 12px;
+}
+
+#index {
+  background-image: url(../images/top-pic2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#index .animation {
+  margin-left: 60px;
+  margin-top: 40px;
+  color: #ffffff;
+  font-size: 90px;
+}
+
+#index h1 {
+  border-bottom: none;
+}
+
+#about {
+  background-image: url(../images/about-pic2.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#about .profile-text {
+  width: 530px;
+  float: left;
+}
+
+#about .profile-pic {
+  float: right;
+}
+
+#about .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#about section {
+  margin-bottom: 35px;
+}
+
+#about .career th {
+  width: 240px;
+  background-color: #ffffff;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+
+#about .career td {
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid  #cccccc;
+}
+
+#about table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+#about .d-block {
+  height: 500px;
+}
+
+#about .skills span {
+  font-weight: bold;
+}
+
+#about .carousel-inner img {
+  height: 600px;
+}
+
+#portfolio {
+  background-image: url(../images/about-pic2.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#portfolio .tennis img {
+  width: 240px;
+  height: 240px;
+  margin: 20px;
+}
+
+#portfolio .ecsite img {
+  width: 400px;
+  margin: 20px;
+}
+
+#portfolio .photo img {
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+}
+
+#contact {
+  background-image: url(../images/about-pic2.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#contact .form {
+  background-color: #eaeaea;
+  padding: 30px 50px;
+}
+
+#contact .form dl dt {
+  width: 165px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}
+
+#contact .form dl dd {
+  padding: 10px 0;
+}
+
+#contact .form .name {
+  width: 280px;
+  height: 30px;
+}
+
+#contact .form .email {
+  width: 280px;
+  height: 30px;
+}
+
+#contact .form .tel {
+  width: 280px;
+  height: 30px;
+}
+
+#contact .form .type {
+  width: 180px;
+  height: 30px;
+}
+
+#contact .form .message {
+  width: 630px;
+  height: 150px;
+}
+
+#contact .form button {
+  background-color: #0066CC;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bitter',serif;
+  width: 120px;
+  height: 70px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #0066CC;
+  margin-left: 165px;
+}
+
+#contact .form button:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #0066CC;
+}
